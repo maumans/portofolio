@@ -3,24 +3,27 @@ import React from 'react';
 export default function WelcomeMain()
 {
     return(
-        <div className={"d-flex justify-content-center text-light pt-3"}>
+        <div className={"d-flex justify-content-center text-light py-3 sticky-top"} style={{backgroundColor:"black"}}>
             <div className={"d-flex justify-content-between col-8"} style={{fontFamily:"Helvetica"}}>
-                <div className={"p-1 rounded"} style={{border:"2px solid white"}}>
+                <div data-aos="fade-down" data-aos-once="true">
                     <strong>
                         Accueil
                     </strong>
+                    <div style={{height:"2px",width:"100%",backgroundColor:"white",transition:"width 2s linear 1s"}}>
                 </div>
-                <div>
+
+                </div>
+                <div data-aos="fade-down" data-aos-once="true">
                    <strong>
                        Competences
                    </strong>
                 </div>
-                <div>
+                <div data-aos="fade-down" data-aos-once="true">
                     <strong>
                         Formations
                     </strong>
                 </div>
-                <div>
+                <div data-aos="fade-down" data-aos-once="true">
                     <strong>
                         Realisations
                     </strong>
